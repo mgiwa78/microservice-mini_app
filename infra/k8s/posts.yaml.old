@@ -1,0 +1,7 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: posts-depl
+containers:
+  - name: posts
+    image: microservices/post:0.0.1
